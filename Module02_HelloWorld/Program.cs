@@ -1,22 +1,44 @@
 ﻿namespace Module02_HelloWorld
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)
-        {
-
+        {               
+                
+               
             
 
-            if (System.Diagnostics.Debugger.IsAttached)
-            {
+           if (System.Diagnostics.Debugger.IsAttached)
+                {
+                 
+                    Console.WriteLine("Indtast dit navn");
+                                                       
+                    string navn = Console.ReadLine();
+                    
+                    string StortNavn = navn.ToUpper;
+
+                    Console.WriteLine("Velkommen" + StortNavn);
+                    Console.WriteLine("Tryk en tast for at fortsætte");
+
+                    Console.ReadKey();
+
+
+                    
+            /*{
                 System.Console.Write("Press any key to continue . . . ");
                 System.Console.ReadKey();
-            }
+            } */
         }
 
         static void DebugDemo() {
 
-            int i = 10;
+
+
+            
+
+            /*int i = 10;
             int u = 20;
             u = u + i;
             string name = "Mikkel";
@@ -29,7 +51,7 @@
                 u += x;
             }
 
-            Test1(5);
+            Test1(5); */
 
         }
 
@@ -49,5 +71,7 @@
         {
             i++;
         }
+
+     
     }
 }
