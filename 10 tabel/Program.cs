@@ -16,15 +16,30 @@ namespace _10_tabel
                 {
                     string tal = (xx * yy).ToString();
                     if ((xx * yy) > 50)
+                    { 
+                          
+                        Console.BackgroundColor = ConsoleColor.Blue;
                         Console.ForegroundColor = ConsoleColor.Yellow;
+                    }
+
                     else
                         if ((xx * yy) > 25)
-                            Console.ForegroundColor = ConsoleColor.Red;
+                    { 
+                        Console.BackgroundColor = ConsoleColor.White ;
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    }
                     else
                         if ((xx * yy) > 7)
+                    {
+                        Console.BackgroundColor = ConsoleColor.Cyan;
                         Console.ForegroundColor = ConsoleColor.Blue;
+
+                    }
                     else
+                    { 
+                        Console.BackgroundColor = ConsoleColor.Green;
                         Console.ForegroundColor = ConsoleColor.White;
+                    }
 
                     Console.Write(tal.PadLeft(4));
 
