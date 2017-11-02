@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Variabler
 {
-    class Program
+    class Variabler
     {
         static void Main(string[] args)
         {
@@ -33,6 +33,14 @@ namespace Variabler
             p.id = 1;
             p.navn = "Marina";
             Console.WriteLine(p.navn);
+
+            Console.ReadKey();
+
+            /*  
+             Console.Write("Press any key to continue . . . ");
+             Console.ReadKey();
+             */
+
         }
     }
     public struct Person

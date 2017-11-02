@@ -5,38 +5,40 @@
     class Program
     {
         static void Main(string[] args)
-        {               
-                
-               
-            
-
-           if (System.Diagnostics.Debugger.IsAttached)
-                {
-                 
-                    Console.WriteLine("Indtast dit navn");
-                                                       
-                    string navn = Console.ReadLine();
-                    
-                    string StortNavn = navn.ToUpper;
-
-                    Console.WriteLine("Velkommen" + StortNavn);
-                    Console.WriteLine("Tryk en tast for at fortsætte");
-
-                    Console.ReadKey();
+        {
 
 
-                    
-            /*{
-                System.Console.Write("Press any key to continue . . . ");
-                System.Console.ReadKey();
-            } */
+
+
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+
+                Console.WriteLine("Indtast dit navn");
+
+                string navn = Console.ReadLine();
+
+                string StortNavn = navn.ToUpper();
+
+                Console.WriteLine("Velkommen" + StortNavn);
+                Console.WriteLine("Tryk en tast for at fortsætte");
+
+                Console.ReadKey();
+
+
+
+                /*{
+                    System.Console.Write("Press any key to continue . . . ");
+                    System.Console.ReadKey();
+                } */
+            }
         }
 
-        static void DebugDemo() {
+        static void DebugDemo()
+        {
 
 
 
-            
+
 
             /*int i = 10;
             int u = 20;
@@ -72,6 +74,7 @@
             i++;
         }
 
-     
+
+
     }
 }
