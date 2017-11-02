@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class contra struct", "Clas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leg med strenge", "Leg med strenge\Leg med strenge.csproj", "{D4559E80-AE61-43EC-AB3A-860E3769AA87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 tabel", "10 tabel\10 tabel.csproj", "{CA64DED3-2C8B-4343-B8BF-9A335836903E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{D4559E80-AE61-43EC-AB3A-860E3769AA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4559E80-AE61-43EC-AB3A-860E3769AA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4559E80-AE61-43EC-AB3A-860E3769AA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA64DED3-2C8B-4343-B8BF-9A335836903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA64DED3-2C8B-4343-B8BF-9A335836903E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA64DED3-2C8B-4343-B8BF-9A335836903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA64DED3-2C8B-4343-B8BF-9A335836903E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{196C2974-BF79-4CE1-A019-9D47C9FB2761} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{8C2897A4-B2D5-4DB9-B682-F8A452F44D93} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{D4559E80-AE61-43EC-AB3A-860E3769AA87} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{CA64DED3-2C8B-4343-B8BF-9A335836903E} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
