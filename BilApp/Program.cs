@@ -8,7 +8,7 @@ namespace BilApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)   
         {
             Bil b = new Bil();
             b.BilId = 1;
