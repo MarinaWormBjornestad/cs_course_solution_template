@@ -24,6 +24,10 @@ namespace Delegates
             res = Beregner(10, 5, Divider);
             Console.WriteLine(value: res);
             Console.ReadKey();
+
+            //Lambda eller anonym funktion
+            Console.WriteLine(Beregner(5,5,(x,y) => x * y));
+            Console.ReadKey();
         }
 
         public static int Beregner(int a, int b, Func<int, int, int> funktion)
