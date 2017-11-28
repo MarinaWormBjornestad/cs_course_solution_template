@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunke", "Bunke\Bunke.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kort", "ConsoleApp6\Kort.csproj", "{D1D3F642-1F3B-4D2C-812B-917EE53B57DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{A1EC037F-E5F7-4919-9746-2724CB4B7C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate 2", "Delegate 2\Delegate 2.csproj", "{1950F80B-07EE-4809-9D7D-A1C0D036649C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +221,14 @@ Global
 		{D1D3F642-1F3B-4D2C-812B-917EE53B57DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D3F642-1F3B-4D2C-812B-917EE53B57DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D3F642-1F3B-4D2C-812B-917EE53B57DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EC037F-E5F7-4919-9746-2724CB4B7C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EC037F-E5F7-4919-9746-2724CB4B7C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EC037F-E5F7-4919-9746-2724CB4B7C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EC037F-E5F7-4919-9746-2724CB4B7C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1950F80B-07EE-4809-9D7D-A1C0D036649C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1950F80B-07EE-4809-9D7D-A1C0D036649C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1950F80B-07EE-4809-9D7D-A1C0D036649C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1950F80B-07EE-4809-9D7D-A1C0D036649C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
